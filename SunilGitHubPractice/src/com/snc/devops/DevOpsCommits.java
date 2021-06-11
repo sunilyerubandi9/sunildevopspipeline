@@ -7,8 +7,6 @@ public class DevOpsCommits {
 		
 		System.out.println("Git Commits Import and mapping to work item: STRY0010009");
 		
-		System.out.println("Git Commit2: STRY0010009");
-		
 	}
 
 }
