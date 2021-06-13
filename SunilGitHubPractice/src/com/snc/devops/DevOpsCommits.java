@@ -9,6 +9,8 @@ public class DevOpsCommits {
 		
 		System.out.println("Modeling Jenkins Pipeline with ServiceNow Devops with Chagne Acceleration");
 		
+		System.out.println("jenkinsreceives notifications from GitHub");
+		
 	}
 
 }
