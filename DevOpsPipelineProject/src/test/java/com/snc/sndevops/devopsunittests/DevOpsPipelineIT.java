@@ -1,8 +1,8 @@
-package com.snc.sndevops;
+package com.snc.sndevops.devopsunittests;
 import org.junit.Assert;
 import org.junit.Test; 
 
-public class DevOpsPipeline_Test {
+public class DevOpsPipelineIT {
 
     String testExecutionStatus = "Success";
 
