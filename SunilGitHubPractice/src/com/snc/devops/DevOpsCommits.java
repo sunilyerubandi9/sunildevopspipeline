@@ -11,6 +11,8 @@ public class DevOpsCommits {
 		
 		System.out.println("jenkinsreceives notifications from GitHub");
 		
+		System.out.println("jenkinsreceives notifications from GitHub by adding repo & pipeline to App");
+		
 	}
 
 }
