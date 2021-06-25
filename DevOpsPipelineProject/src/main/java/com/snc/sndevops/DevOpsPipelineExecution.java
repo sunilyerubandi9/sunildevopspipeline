@@ -50,6 +50,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("ADO Pipeline configuration");
 		
+		System.out.println("ADO Pipeline configuration");
+		
 	}
 
 }
