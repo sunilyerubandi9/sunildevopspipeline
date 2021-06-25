@@ -46,11 +46,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("STRY0010038");
 		
-		System.out.println("STRY0010040");
+		System.out.println("STRY0010046");
 		
-		System.out.println("ADO Pipeline configuration");
-		
-		System.out.println("ADO Pipeline configuration");
 		
 	}
 
