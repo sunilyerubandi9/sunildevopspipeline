@@ -60,6 +60,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("STRY0010107");
 		
+		System.out.println("DFCT0010001");
+		
 	}
 
 }
