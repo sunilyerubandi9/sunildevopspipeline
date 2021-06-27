@@ -62,6 +62,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("DFCT0010001");
 		
+		System.out.println("EPIC0020001");
+		
 	}
 
 }
