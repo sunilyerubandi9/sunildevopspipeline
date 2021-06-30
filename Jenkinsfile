@@ -1,34 +1,34 @@
 pipeline {
   agent any
-  tools {
-    maven "Maven"
-  }
   stages {
-      stage("build") {
-          steps {
-            echo 'build..'
-            sleep 2
-           snDevOpsArtifact(artifactsPayload:"""{"artifacts": [{"name": "devops_dev_artifact.jar","version": "1.${BUILD_NUMBER}","semanticVersion": "1.${BUILD_NUMBER}.0","repositoryName": "devops_dev_repo"}],"stageName": "build"}""")
-              //sh 'mvn clean install'
-            snDevOpsChange()
-          }
-      }
-      stage("test") {
+       stage('Build') {
            steps {
-             echo 'test.'
-             snDevOpsArtifact(artifactsPayload:"""{"artifacts": [{"name": "devops_test_artifact.jar","version": "1.${BUILD_NUMBER}","semanticVersion": "1.${BUILD_NUMBER}.0","repositoryName": "devops_test_repo"}],"stageName": "test"}""")
-             sleep 2
-                sh 'mvn clean test -Dtest="devopsunittests.*" -Dpublish'
-                junit '**/target/surefire-reports/*.xml'
+              snDevOpsStep()
+              snDevOpsChange()
            }
        }
-      stage("deploy") {
-          steps {
-            echo 'Deploying..'            
-          	snDevOpsPackage(name: "devops_demo_package.${BUILD_NUMBER}", artifactsPayload: """{"artifacts": [{"name": "devops_dev_artifact.jar","version": "1.${BUILD_NUMBER}","semanticVersion": "1.${BUILD_NUMBER}.0","repositoryName": "devops_dev_repo"},{"name": "devops_test_artifact.jar","version": "1.${BUILD_NUMBER}","semanticVersion": "1.${BUILD_NUMBER}.0","repositoryName": "devops_test_repo"}]}""")            
-            sleep 5
-           snDevOpsChange()
-          }
-      }
-  }
+ }
 }
+
+
+
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
+a
