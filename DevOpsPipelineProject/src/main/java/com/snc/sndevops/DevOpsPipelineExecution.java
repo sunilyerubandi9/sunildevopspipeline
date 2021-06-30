@@ -62,11 +62,13 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("DFCT0010001");
 		
-		System.out.println("EPIC0020001");
+		System.out.println("	");
 		
 		System.out.println("720");
 		
 		System.out.println("719");
+		
+		System.out.println("721 Story update - 1- on June 30");
 		
 	}
 
