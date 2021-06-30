@@ -70,6 +70,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("721 Story update - 1- on June 30");
 		
+		System.out.println("721: Story update - Commit - 2 - on June 30");
+		
 	}
 
 }
