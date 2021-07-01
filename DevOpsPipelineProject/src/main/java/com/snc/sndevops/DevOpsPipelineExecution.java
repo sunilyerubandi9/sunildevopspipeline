@@ -80,6 +80,12 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("appbupolaris - Polaris validation");
 		
+		System.out.println("appbupolaris - Polaris validation - Commit2");
+		
+		System.out.println("appbupolaris - Polaris validation - Commit3");
+		
+		System.out.println("appbupolaris - Polaris validation - Commit4");
+		
 		
 		
 	}
