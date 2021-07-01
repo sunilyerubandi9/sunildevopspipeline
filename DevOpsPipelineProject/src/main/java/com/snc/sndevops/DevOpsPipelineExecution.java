@@ -74,7 +74,9 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("STRY0010009: Story update - Commit - 3 - on June 30");
 		
-		System.out.println("STRY0010030: Story update - Commit - 3 - on June 30");
+		System.out.println("STRY0010030: Story update - Commit - 3 - on July 1st");
+		
+		System.out.println("721: appbupolaris - Polaris validation");
 		
 		
 		
