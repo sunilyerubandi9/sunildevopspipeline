@@ -96,6 +96,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("Commit 3 - Enable Change Accelration");
 		
+		System.out.println("Commit 4 - Enable Change Accelration");
+		
 		
 	}
 
