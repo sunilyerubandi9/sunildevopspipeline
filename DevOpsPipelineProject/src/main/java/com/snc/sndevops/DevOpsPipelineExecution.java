@@ -88,6 +88,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("718: appbupolaris - Polaris validation - Story update");
 		
+		System.out.println("719: appbupolaris - Polaris validation - Story update");
+		
 		
 		
 	}
