@@ -132,7 +132,7 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("AP01-132: Story update");
 		
-//		System.out.println("AP01-133: Story update");
+		System.out.println("AP01-133: Story update");
 		
 //		System.out.println("AP01-134: Story update");
 		
