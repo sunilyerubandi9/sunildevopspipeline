@@ -108,6 +108,37 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("STRY0010101: Story update");
 		
+		System.out.println("STRY0010016: Story update");
+		
+		//ITBM Agile2
+		
+		System.out.println("STRY0010023: Story update");
+		
+	//	System.out.println("STRY0010025: Story update");
+		
+	
+		//ADO
+	//	System.out.println("729: Story update");
+		
+	//	System.out.println("728: Story update");
+		
+//		System.out.println("727: Story update");
+		
+//		System.out.println("726: Story update");
+		
+		
+		//Jira
+//		System.out.println("AP01-131: Story update");
+		
+//		System.out.println("AP01-132: Story update");
+		
+//		System.out.println("AP01-133: Story update");
+		
+//		System.out.println("AP01-134: Story update");
+		
+		
+	
+
 		
 		
 	}
