@@ -86,6 +86,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("appbupolaris - Polaris validation - Commit4");
 		
+		System.out.println("718: appbupolaris - Polaris validation - Story update");
+		
 		
 		
 	}
