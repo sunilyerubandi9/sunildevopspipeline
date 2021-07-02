@@ -11,5 +11,7 @@ public class App
         System.out.println( "Hello World!, making chages to test work item. Changes- PipelineUI" );
         
         System.out.println("Commit 1 made to Test Project 001" );
+        
+        System.out.println("Commit 2 added new story seismic changes" );
     }
 }
