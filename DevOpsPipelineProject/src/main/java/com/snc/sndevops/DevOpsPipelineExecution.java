@@ -136,6 +136,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("AP01-134: Story update");
 		
+		System.out.println("Update Story");
+	
 		
 	
 
