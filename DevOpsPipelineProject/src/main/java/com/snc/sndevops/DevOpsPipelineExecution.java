@@ -128,7 +128,7 @@ public class DevOpsPipelineExecution {
 		
 		
 		//Jira
-//		System.out.println("AP01-131: Story update");
+		System.out.println("AP01-131: Story update");
 		
 //		System.out.println("AP01-132: Story update");
 		
