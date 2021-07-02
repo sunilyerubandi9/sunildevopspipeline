@@ -122,7 +122,7 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("728: Story update");
 		
-//		System.out.println("727: Story update");
+		System.out.println("727: Story update");
 		
 //		System.out.println("726: Story update");
 		
