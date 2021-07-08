@@ -171,6 +171,8 @@ public class DevOpsPipelineExecution {
 		
 		System.out.println("STRY0010090: Story update");
 		
+		System.out.println("STRY0010023: Story update");
+		
 	
 
 		
