@@ -15,5 +15,7 @@ public class App
         System.out.println("Commit 2 added new story seismic changes" );
         
         System.out.println("Commit 3 added new story seismic changes" );
+        
+        System.out.println("Commit 3 added new story seismic changes" );
     }
 }
