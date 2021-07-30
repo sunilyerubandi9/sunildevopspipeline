@@ -7,7 +7,7 @@
 public class App {
     public static void main( String[] args ) {
         
-        System.out.println("STRY0010001: Story update");
+        System.out.println("STRY0010007: Story update");
    
     }
 }
