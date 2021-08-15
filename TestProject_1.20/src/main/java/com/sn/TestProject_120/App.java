@@ -7,7 +7,7 @@
 public class App {
     public static void main( String[] args ) {
         
-        System.out.println("757: Story update");
+        System.out.println("766: Story update");
    
     }
 }
