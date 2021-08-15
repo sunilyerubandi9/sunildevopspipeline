@@ -1,4 +1,4 @@
-	package com.sn.TestProject_120;
+package com.sn.TestProject_120;
 
 /**
  * Hello world!
@@ -7,7 +7,7 @@
 public class App {
     public static void main( String[] args ) {
         
-        System.out.println("770: Story update ");
+        System.out.println("771: Story update ");
    
     }
 }
