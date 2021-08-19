@@ -7,7 +7,7 @@ package com.sn.TestProject_120;
 public class App {
     public static void main( String[] args ) {
         
-        System.out.println("732: Story update 732 ");
+        System.out.println("732: Story update 732");
    
     }
 }
