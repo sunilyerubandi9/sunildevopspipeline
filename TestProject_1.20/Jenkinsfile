@@ -8,8 +8,7 @@ pipeline {
    stages {
        stage("Build") {
                 steps {
-                    echo "Building" 
-                    cd ./TestProject_1.20/
+                    echo "Building"
                     sh 'mvn -X clean install -DskipTests'
                 }
        }
