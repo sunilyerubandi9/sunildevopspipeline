@@ -9,6 +9,7 @@ pipeline {
        stage("Build") {
                 steps {
                     echo "Building" 
+                    cd ./TestProject_1.20/
                     sh 'mvn -X clean install -DskipTests'
                 }
        }
