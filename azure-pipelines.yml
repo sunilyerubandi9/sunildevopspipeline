@@ -5,69 +5,72 @@
 trigger:
  - none
 pool:
-  vmImage: ‘ubuntu-latest’
+  vmImage: 'ubuntu-latest'
 stages:
     - stage: Build
       jobs:
-          - job: ‘Job’
+          - job: 'Job'
             steps:
             - task: Bash@3
               inputs:
-                targetType: ‘inline’
+                targetType: 'inline'
                 script: |
-                  # Write your commands here
-                  echo ‘Hello world.’
+                  # Write your commands here                  
+                  echo 'Hello world.'
+            
     - stage: Test
       jobs:
-          - job: ‘Job’
+          - job: 'Job'
             steps:
             - task: Bash@3
               inputs:
-                targetType: ‘inline’
+                targetType: 'inline'
                 script: |
-                  # Write your commands here
-                  echo ‘Hello world’
+                  # Write your commands here                  
+                  echo 'Hello world'
             - task: PublishTestResults@2
               inputs:
-                testResultsFormat: ‘JUnit’
-                testResultsFiles: ‘**/TEST-*.xml’
-                testRunTitle: ‘Job’
+                testResultsFormat: 'JUnit'
+                testResultsFiles: '**/TEST-*.xml'
+                testRunTitle: 'Job'
+                
             - task: PublishTestResults@2
               inputs:
-                testResultsFormat: ‘JUnit’
-                testResultsFiles: ‘**/TEST-*.xml’
-                testRunTitle: ‘Job’
+                testResultsFormat: 'JUnit'
+                testResultsFiles: '**/TEST-*.xml'
+                testRunTitle: 'Job'
+            
     - stage: Deploy
       jobs:
-          - job: ‘Job’
+          - job: 'Job'
             steps:
             - task: Bash@3
               inputs:
-                targetType: ‘inline’
+                targetType: 'inline'
                 script: |
-                  # Write your commands here
-                  echo ‘Hello world’
+                  # Write your commands here                  
+                  echo 'Hello world'
             - task: ServiceNow-DevOps-Agent-Artifact-Registration@1
               inputs:
-                connectedServiceName: ‘sandiegorp1-SunSNDevOps-Project-ServiceNow DevOps Service Connection’
+                connectedServiceName: 'sandiegorp1-SunSNDevOps-Project-ServiceNow DevOps Service Connection'
                 artifactsPayload: |
                   {
-                      “artifacts”: [
+                      "artifacts": [
                         {
-                            “name”: “msnautomation-agent-registration-artifact.jar”,
-                            “version”: “1.$(Build.BuildId)“,
-                            “semanticVersion”: “1.$(Build.BuildId).0",
-                            “repositoryName”: "sunildevopspipeline"
+                            "name": "msnautomation-agent-registration-artifact.jar",
+                            "version": "1.$(Build.BuildId)",
+                            "semanticVersion": "1.$(Build.BuildId).0",
+                            "repositoryName": "sunildevopspipeline"
                         }
                       ]
-                  }
+                  }            
     - stage: Prod
       jobs:
-          - job: ‘Job’
+          - job: 'Job'
             steps:
             - task: Bash@3
               inputs:
-                targetType: ‘inline’
+                targetType: 'inline'
                 script: |
-                  # Write your commands here
-                  echo ‘Hello world’
+                  # Write your commands here                  
+                  echo 'Hello world'   
